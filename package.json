@@ -1,0 +1,23 @@
+{
+  "name": "studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.5"
+  },
+  "scripts": {
+    "start":"browser-sync start -c ./bs-config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dleonard94/WebStudies.git"
+  },
+  "author": "Dakota Leonard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dleonard94/WebStudies/issues"
+  },
+  "homepage": "https://github.com/dleonard94/WebStudies#readme"
+}
