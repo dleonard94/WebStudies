@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>DogZ</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="./Style.css" rel="stylesheet"> 
+
+        <script src="./Dogz.js"></script>
+    </head>
+
+    <body onLoad="onLoad()">
+        <!-- Header -->
+        <div id="header">
+            <h1>DogZ</h1>
+        </div>
+        
+        <!-- Selection -->
+        <div id="selection">
+            <label for="breedSelect">Dog Breed</label>
+            <select id="breedSelect" class="breedSelect"  onChange="breedChange()"></select>
+
+            <label for="subBreedSelect">Sub-breed</label>
+            <select id="subBreedSelect" class="breedSelect onChange="subBreedChange()"></select>
+        <button id="dogMeButton" onClick="DogMe()"> Dog Me</button>
+        </div>
+
+        <!-- Images -->
+        <div id="dogImages">
+            <div class="dogRow">
+                <div id="dog1" class="dogImage">
+                    <img src="./default_pet.jpg" />
+                </div>
+
+                <div id="dog2" class="dogImage">
+                        <img src="./default_pet.jpg" />
+                </div>
+
+                <div id="dog3" class="dogImage">
+                    <img src="./default_pet.jpg" />
+                </div>
+            </div>
+
+            <div class="dogRow">
+                <div id="dog4" class="dogImage">
+                        <img src="./default_pet.jpg" />
+                </div>
+
+                <div id="dog5" class="dogImage">
+                        <img src="./default_pet.jpg" />
+                </div>
+                
+                <div id="dog6" class="dogImage">
+                    <img src="./default_pet.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer  -->
+        <div id="footer">
+            <p id="result"></p>
+        </div>
+
+    </body>
+</html>
