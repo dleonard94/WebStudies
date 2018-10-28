@@ -1,0 +1,79 @@
+:root{
+    --blue: #6B7A8F;
+    --orange: #FC4A1A;
+    --dark-orange: #EA2B02;
+    --yellow: #F7B733;
+    --white: #E2DFE5;
+    --black: #373737;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+    margin: 0px;
+}
+
+/* Header */
+#header
+{
+    width:100%;
+    padding: 5px 10px 10px 10px;
+    background-color: var(--blue);
+    box-shadow: 0px 2px 4px var(--black);
+    position: fixed;
+    top: 0px;
+}
+
+#header>h1{
+    margin:0px;
+    color: var(--white);
+}
+
+/* Input */
+#selection
+{
+    margin: 70px 10px 15px 10px;
+    font-size: 1.5em;
+}
+
+.breedSelect
+{
+    min-width: 125px;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+#dogMeButton
+{
+    margin-left: 20px;
+    font-size: 1em;
+    padding: 2px 10px 2px 10px;
+    border: 0px;
+    background-color: var(--orange);
+    color: var(--white);
+    top: -2px;
+    border-radius: 10px;
+}
+
+#dogMeButton:hover
+{
+    color: white;
+}
+
+/* DOGZ */
+.dogRow>.dogImage
+{
+    display: inline-block;
+}
+
+.dogImage
+{
+    max-width: 25%;
+    max-height: 300px;
+}
+
+.dogImage>img
+{
+    max-width: 100%;
+    max-height: 300px;
+}
